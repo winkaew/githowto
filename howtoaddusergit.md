@@ -19,5 +19,6 @@ Administrator. It usually boils down to these three things:
 
 [sudo] password for git:
 [git@git-server ~]$
+sudo usermod -a -G gituser git
 
 
