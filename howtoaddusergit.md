@@ -80,7 +80,7 @@ $ pwd
 /c/Users/9463/mygit/callcenter
 
 9463@R4402-1989014 MINGW64 ~/mygit/callcenter (master)
-$
+$git remote rm 
 
 
 
