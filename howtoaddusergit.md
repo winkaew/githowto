@@ -66,6 +66,21 @@ git: 'close' is not a git command. See 'git --help'.
 
 The most similar command is
         clone
+9463@R4402-1989014 MINGW64 ~/mygit/callcenter
+$ git clone ssh://root@Ipserver:/home/git/gitpwa/gitpwadev/.
+Cloning into '.'...
+root@192.168.246.45's password:
+warning: You appear to have cloned an empty repository.
+
+9463@R4402-1989014 MINGW64 ~/mygit/callcenter (master)
+$ ls
+
+9463@R4402-1989014 MINGW64 ~/mygit/callcenter (master)
+$ pwd
+/c/Users/9463/mygit/callcenter
+
+9463@R4402-1989014 MINGW64 ~/mygit/callcenter (master)
+$
 
 
 
