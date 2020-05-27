@@ -35,6 +35,24 @@ gitpwadev  gitpwamobile  gitpwaweb
 [git@git-server gitpwa]$ pwd
 /home/git/gitpwa
 [git@git-server gitpwa]$
+[git@git-server gitpwadev]$ git init --bare --shared=group
+Initialized empty shared Git repository in /home/git/gitpwa/gitpwadev/
+[git@git-server gitpwadev]$ ls
+branches  config  description  HEAD  hooks  info  objects  refs
+[git@git-server gitpwadev]$ ls
+branches  config  description  HEAD  hooks  info  objects  refs
+[git@git-server gitpwadev]$ rm -rf *
+[git@git-server gitpwadev]$ ls
+[git@git-server gitpwadev]$ ls
+[git@git-server gitpwadev]$ ls
+[git@git-server gitpwadev]$ mkdir callcenter
+[git@git-server gitpwadev]$ ls
+callcenter
+[git@git-server gitpwadev]$ cd callcenter
+[git@git-server callcenter]$ git init --bare --shared=group
+Initialized empty shared Git repository in /home/git/gitpwa/gitpwadev/callcenter/
+[git@git-server callcenter]$
+
 
 
 
