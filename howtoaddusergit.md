@@ -52,6 +52,22 @@ callcenter
 [git@git-server callcenter]$ git init --bare --shared=group
 Initialized empty shared Git repository in /home/git/gitpwa/gitpwadev/callcenter/
 [git@git-server callcenter]$
+/home/git/gitpwa/gitpwadev/callcenter
+[root@git-server callcenter]# chgrp -R gituser /home/git/gitpwa/gitpwadev/callcenter/
+[root@git-server callcenter]# chmod -R g+rw /home/git/gitpwa/gitpwadev/callcenter/
+[root@git-server callcenter]# chmod g+s `find /home/git/gitpwa/gitpwadev/callcenter/ -type d `
+[root@git-server callcenter]#
+ chmod g+s /home/git/gitpwa/gitpwadev/
+ [git@git-server gitpwadev]$ git init --bare --shared=group
+Initialized empty shared Git repository in /home/git/gitpwa/gitpwadev/
+[git@git-server gitpwadev]$
+ git close ssh://192.168.246.45:/home/git/gitpwa/gitpwadev/.
+git: 'close' is not a git command. See 'git --help'.
+
+The most similar command is
+        clone
+
+
 
 
 
