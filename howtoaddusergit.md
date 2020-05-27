@@ -81,6 +81,38 @@ $ pwd
 
 9463@R4402-1989014 MINGW64 ~/mygit/callcenter (master)
 $git remote rm 
+9463@R4402-1989014 MINGW64 ~/mygit/callcenter/PWAWebUser (master)
+$ git commit -m "test commit"
+On branch master
+nothing to commit, working tree clean
+
+9463@R4402-1989014 MINGW64 ~/mygit/callcenter/PWAWebUser (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+9463@R4402-1989014 MINGW64 ~/mygit/callcenter/PWAWebUser (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+9463@R4402-1989014 MINGW64 ~/mygit/callcenter/PWAWebUser (master)
+$ git push origin master
+Enumerating objects: 299, done.
+Counting objects: 100% (299/299), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (285/285), done.
+Writing objects: 100% (299/299), 2.41 MiB | 2.19 MiB/s, done.
+Total 299 (delta 23), reused 0 (delta 0)
+remote: Resolving deltas: 100% (23/23), done.
+To 192.168.246.45:/home/git/gitpwa/gitpwadev/callcenter/pwawebuser
+ * [new branch]      master -> master
+
+9463@R4402-1989014 MINGW64 ~/mygit/callcenter/PWAWebUser (master)
+$
 
 
 
