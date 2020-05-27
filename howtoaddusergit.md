@@ -20,5 +20,21 @@ Administrator. It usually boils down to these three things:
 [sudo] password for git:
 [git@git-server ~]$
 sudo usermod -a -G gituser git
+[git@git-server ~]$ cd ~git
+[git@git-server ~]$ pwd
+/home/git
+[git@git-server gitpwa]$ mkdir gitpwadev
+[git@git-server gitpwa]$ mkidr gitpwamobile
+-bash: mkidr: command not found
+[git@git-server gitpwa]$ mkidir gitpwamobile
+-bash: mkidir: command not found
+[git@git-server gitpwa]$ mkdir gitpwamobile
+[git@git-server gitpwa]$ mkdir gitpwaweb
+[git@git-server gitpwa]$ ls
+gitpwadev  gitpwamobile  gitpwaweb
+[git@git-server gitpwa]$ pwd
+/home/git/gitpwa
+[git@git-server gitpwa]$
+
 
 
