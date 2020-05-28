@@ -1,40 +1,39 @@
 ##คู่มือการใช้งาน GIT
 
+1. คำสั่งในการสร้าง Key RSA สำหรับ git
 su - git
 $ ssh-keygen -t rsa
 Generating public/private rsa key pair.
-Enter file in which to save the key (/c/Users/9463/.ssh/id_rsa): thawinsak_id_rsa.pub
-Enter passphrase (empty for no passphrase):
+Enter file in which to save the key (/c/Users/9463/.ssh/id_rsa): thawinsak_id_rsa.pub (กรอกเป็นชื่อไฟล์)
+Enter passphrase (empty for no passphrase): ใส่คำสำคัญที่เราต้องการ 2 ครั้ง
+
+2. ขั้นตอนการดำเนินการเปิดใช้งาน Key ที่สร้างในระบบ
 scp thawinsak_rsa.pub  root@IPxxxx:/home/git/thawinsak_rsa.pub
 root@IPserver's password:
 thawinsak_rsa.pub                             100%  572    10.6KB/s   00:00
 [git@git-server ~]$ cat ~/thawinsak_rsa.pub  >>~/.ssh/authorized_keys
 [git@git-server ~]$ sudo groupadd gituser
 
-We trust you have received the usual lecture from the local System
-Administrator. It usually boils down to these three things:
+3. ขั้นตอนการสร้าง folder git
 
-    #1) Respect the privacy of others.
-    #2) Think before you type.
-    #3) With great power comes great responsibility.
-
+3.1 การล็อกอิน และการกำหนด User git 
 [sudo] password for git:
 [git@git-server ~]$
 sudo usermod -a -G gituser git
 [git@git-server ~]$ cd ~git
 [git@git-server ~]$ pwd
 /home/git
+
+3.2 การสร้าง Folder สำหรับเก็บ code ใน git 
 [git@git-server gitpwa]$ mkdir gitpwadev
-[git@git-server gitpwa]$ mkidr gitpwamobile
--bash: mkidr: command not found
-[git@git-server gitpwa]$ mkidir gitpwamobile
--bash: mkidir: command not found
 [git@git-server gitpwa]$ mkdir gitpwamobile
 [git@git-server gitpwa]$ mkdir gitpwaweb
 [git@git-server gitpwa]$ ls
 gitpwadev  gitpwamobile  gitpwaweb
 [git@git-server gitpwa]$ pwd
 /home/git/gitpwa
+
+3.3 การกำหนด Sharing Directory ของ git 
 [git@git-server gitpwa]$
 [git@git-server gitpwadev]$ git init --bare --shared=group
 Initialized empty shared Git repository in /home/git/gitpwa/gitpwadev/
@@ -65,8 +64,7 @@ Initialized empty shared Git repository in /home/git/gitpwa/gitpwadev/
  git close ssh://192.168.246.45:/home/git/gitpwa/gitpwadev/.
 git: 'close' is not a git command. See 'git --help'.
 
-The most similar command is
-        clone
+3.4 การ clone และการ push code เข้าไปใน git
 9463@R4402-1989014 MINGW64 ~/mygit/callcenter
 $ git clone ssh://root@Ipserver:/home/git/gitpwa/gitpwadev/.
 Cloning into '.'...
