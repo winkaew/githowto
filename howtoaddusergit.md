@@ -1,4 +1,5 @@
-##add usergit
+##คู่มือการใช้งาน GIT
+
 su - git
 $ ssh-keygen -t rsa
 Generating public/private rsa key pair.
