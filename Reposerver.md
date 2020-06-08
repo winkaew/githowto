@@ -23,6 +23,11 @@
 ## git commit -m 'fist commit'
 ## git remote add origin ssh://thawinsak@servergit/home/git/pwagit/gitpwadev/testgit
 ## git push origin master
+## ssh thawinsak@servergit 
+## cd testgit
+## git ls-tree --full-tree -r --name-only HEAD
+
+
 
 
 
