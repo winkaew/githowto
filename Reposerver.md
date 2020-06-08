@@ -10,6 +10,19 @@
 [คู่มือ GIT](https://git-scm.com/book/en/v2)
 
 ## $ git config --global --list
+##  ฝั่ง SERVERGIT
+## ssh thawinsak@servergit
+## cd /home/git/gitpwa/gitpwadev
+## mkdir testgit
+## git init --bare
+## ฝั่ง CLIENT  gitbash
+## mkdir mygit
+## cd mygit
+## touch test.txt
+## git add .
+## git commit -m 'fist commit'
+## git remote add origin ssh://thawinsak@servergit/home/pwagit/gitpwadev/testgit
+## git push origin master
 
 
 
