@@ -21,7 +21,7 @@
 ## touch test.txt
 ## git add .
 ## git commit -m 'fist commit'
-## git remote add origin ssh://thawinsak@servergit/home/pwagit/gitpwadev/testgit
+## git remote add origin ssh://thawinsak@servergit/home/git/pwagit/gitpwadev/testgit
 ## git push origin master
 
 
