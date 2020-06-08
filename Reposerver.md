@@ -1,6 +1,10 @@
 # คู่มือ GIT
 ![](https://github.com/winkaew/githowto/blob/master/)
 ## การ Generate key ssh 
+## อยู่ ที่ TERMINAL GIT BASH
+## $ ssh-keygen
+## $ ssh-copy-id  thawinsak@Servergit
+
 ## ขั้นตอนที่ 1 ติดตั้ง Gitbash
 [การติดตั้ง gitbash](https://medium.com/touch-technologies/วิธีติดตั้ง-git-แบบง่ายๆ-ภายใน-3-นาที-3c8257127c40)
 [คู่มือ GIT](https://git-scm.com/book/en/v2)
