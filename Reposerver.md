@@ -5,5 +5,9 @@
 [การติดตั้ง gitbash](https://medium.com/touch-technologies/วิธีติดตั้ง-git-แบบง่ายๆ-ภายใน-3-นาที-3c8257127c40)
 [คู่มือ GIT](https://git-scm.com/book/en/v2)
 
+## $ git config --global --list
+
+
+
 
 
