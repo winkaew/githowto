@@ -26,7 +26,11 @@
 ## ssh thawinsak@servergit 
 ## cd testgit
 ## git ls-tree --full-tree -r --name-only HEAD
-
+## ssh git@servergit
+## สร้าง ที่server mkdir /srv/git
+## cd srv/git
+##  git init --bare random.git
+##
 
 
 
