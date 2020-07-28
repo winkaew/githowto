@@ -141,6 +141,48 @@ $ git commit -m "gitbash first commit after changing the first lien "
 # Automatic merge failed; fix conflicts and then commit the result.
 
 # 9463@R4402-1989014 ~/bare_collab
+# $ cat mycontent.txt
+# <<<<<<< HEAD
+# Unchange first line from source = Not any more;) cygwin64terminal change
+# =======
+# first line from source -- Changed by gitbash
+# >>>>>>> 030bad7e84f7d7801a1eb68951e99fbac7992f4d
+# Second line
+# Third line
+# Fourth line by cygwin64terminal
+#$ git commit -m "Merge accept gitbash post"
+#[master 3f60be2] Merge accept gitbash post
+
+#9463@R4402-1989014 ~/bare_collab
+#$ git log
+#commit 3f60be2a4a0ba7af9f42b5195c3ebea5a6980a1b (HEAD -> master)
+#Merge: db9516e 030bad7
+#Author: puthaimuangway <thawinsak@192.168.246.45>
+#Date:   Tue Jul 28 18:55:07 2020 +0700
+
+#    Merge accept gitbash post
+
+# commit db9516ee0d0211b72515f04370021ef04da7a9fd
+# Author: puthaimuangway <thawinsak@192.168.246.45>
+# Date:   Tue Jul 28 18:29:07 2020 +0700
+
+#    cygwin64terminal change file
+
+# commit 030bad7e84f7d7801a1eb68951e99fbac7992f4d (origin/master, origin/HEAD)
+# Author: thawinsakclient <thawinsakk@pwa.co.th>
+# Date:   Tue Jul 28 18:13:16 2020 +0700
+
+#    gitbash first commit after changing the first lien
+
+# commit 1f8ec62c5582a816dd0a0a7f9a42e9b64048e75a
+# Author: thawinsak <thawinsak@git-cleint.itlab.com>
+# Date:   Tue Jul 28 17:26:33 2020 +0700
+
+#    Base commit from source
+
+# 9463@R4402-1989014 ~/bare_collab
+
+
 
 
 
