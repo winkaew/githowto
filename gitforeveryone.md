@@ -75,7 +75,7 @@ $ git commit -m "gitbash first commit after changing the first lien "
 # Compressing objects: 100% (2/2), done.
 # Writing objects: 100% (3/3), 326 bytes | 163.00 KiB/s, done.
 # Total 3 (delta 0), reused 0 (delta 0)
-# To ssh://serverintranet:/home/git/bare_collab
+# To ssh://intranetserver:/home/git/bare_collab
 #   1f8ec62..030bad7  master -> master
 
 # 9463@R4402-1989014 MINGW64 ~/testgit/bare_collab (master)
@@ -134,7 +134,7 @@ $ git commit -m "gitbash first commit after changing the first lien "
 # remote: Compressing objects: 100% (2/2), done.
 # remote: Total 3 (delta 0), reused 0 (delta 0)
 # Unpacking objects: 100% (3/3), 306 bytes | 19.00 KiB/s, done.
-# From ssh://gitintranet:/home/git/bare_collab
+# From ssh://intranetserver:/home/git/bare_collab
 #   1f8ec62..030bad7  master     -> origin/master
 # Auto-merging mycontent.txt
 # CONFLICT (content): Merge conflict in mycontent.txt
@@ -189,14 +189,14 @@ $ git commit -m "gitbash first commit after changing the first lien "
 # Compressing objects: 100% (4/4), done.
 # Writing objects: 100% (6/6), 704 bytes | 352.00 KiB/s, done.
 # Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
-# To ssh://192.168.246.45:/home/git/bare_collab
+# To ssh://intranetserver:/home/git/bare_collab
 #   030bad7..3f60be2  master -> master
 
 # 9463@R4402-1989014 ~/bare_collab
 # $ git log --graph
 # *   commit 3f60be2a4a0ba7af9f42b5195c3ebea5a6980a1b (HEAD -> master, origin/master, origin/HEAD)
 # |\  Merge: db9516e 030bad7
-# | | Author: puthaimuangway <thawinsak@192.168.246.45>
+# | | Author: puthaimuangway <thawinsak@intranetserver>
 # | | Date:   Tue Jul 28 18:55:07 2020 +0700
 # | |
 # | |     Merge accept gitbash post
@@ -208,7 +208,7 @@ $ git commit -m "gitbash first commit after changing the first lien "
 # | |     gitbash first commit after changing the first lien
 # | |
 # * | commit db9516ee0d0211b72515f04370021ef04da7a9fd
-# |/  Author: puthaimuangway <thawinsak@192.168.246.45>
+# |/  Author: puthaimuangway <thawinsak@intranetserver>
 # |   Date:   Tue Jul 28 18:29:07 2020 +0700
 # |
 # |       cygwin64terminal change file
@@ -221,7 +221,7 @@ $ git commit -m "gitbash first commit after changing the first lien "
 # remote: Compressing objects: 100% (4/4), done.
 # remote: Total 6 (delta 0), reused 0 (delta 0)
 # Unpacking objects: 100% (6/6), 684 bytes | 2.00 KiB/s, done.
-# From ssh://192.168.246.45:/home/git/bare_collab
+# From ssh://intranetserver:/home/git/bare_collab
 #   030bad7..3f60be2  master     -> origin/master
 # Updating 030bad7..3f60be2
 # Fast-forward
@@ -233,7 +233,7 @@ $ git commit -m "gitbash first commit after changing the first lien "
 # $ git log
 # commit 3f60be2a4a0ba7af9f42b5195c3ebea5a6980a1b (HEAD -> master, origin/master, origin/HEAD)
 # Merge: db9516e 030bad7
-# Author: puthaimuangway <thawinsak@192.168.246.45>
+# Author: puthaimuangway <thawinsak@intranetserver>
 # Date:   Tue Jul 28 18:55:07 2020 +0700
 
 #    Merge accept gitbash post
@@ -252,7 +252,7 @@ $ git commit -m "gitbash first commit after changing the first lien "
 
 # commit 1f8ec62c5582a816dd0a0a7f9a42e9b64048e75a
 # Author: thawinsak <thawinsak@git-cleint.itlab.com>
-# ssh git@192.168.246.45
+# ssh git@intranetserver
 # [git@git-server ~]$
 # home/git/collab_source
 # [git@git-server collab_source]$
