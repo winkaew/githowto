@@ -1,3 +1,4 @@
+# GIT VERSION CONTROL FOR EVERY ONE Beginner's Guide
 ## On servergit server intranet
 ##  mkdir collab_source
 ## cd collab_source/
