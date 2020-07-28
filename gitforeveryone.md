@@ -181,6 +181,95 @@ $ git commit -m "gitbash first commit after changing the first lien "
 #    Base commit from source
 
 # 9463@R4402-1989014 ~/bare_collab
+# git push
+# git@192.168.246.45's password:
+# Enumerating objects: 10, done.
+# Counting objects: 100% (10/10), done.
+# Delta compression using up to 4 threads
+# Compressing objects: 100% (4/4), done.
+# Writing objects: 100% (6/6), 704 bytes | 352.00 KiB/s, done.
+# Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+# To ssh://192.168.246.45:/home/git/bare_collab
+#   030bad7..3f60be2  master -> master
+
+# 9463@R4402-1989014 ~/bare_collab
+# $ git log --graph
+# *   commit 3f60be2a4a0ba7af9f42b5195c3ebea5a6980a1b (HEAD -> master, origin/master, origin/HEAD)
+# |\  Merge: db9516e 030bad7
+# | | Author: puthaimuangway <thawinsak@192.168.246.45>
+# | | Date:   Tue Jul 28 18:55:07 2020 +0700
+# | |
+# | |     Merge accept gitbash post
+# | |
+# | * commit 030bad7e84f7d7801a1eb68951e99fbac7992f4d
+# | | Author: thawinsakclient <thawinsakk@pwa.co.th>
+# | | Date:   Tue Jul 28 18:13:16 2020 +0700
+# | |
+# | |     gitbash first commit after changing the first lien
+# | |
+# * | commit db9516ee0d0211b72515f04370021ef04da7a9fd
+# |/  Author: puthaimuangway <thawinsak@192.168.246.45>
+# |   Date:   Tue Jul 28 18:29:07 2020 +0700
+# |
+# |       cygwin64terminal change file
+# |
+# * commit 1f8ec62c5582a816dd0a0a7f9a42e9b64048e75a
+#  Author: thawinsak <thawinsak@git-cleint.itlab.com>
+# 9463@R4402-1989014 MINGW64 ~/testgit/bare_collab (master)
+# $ git pull
+# remote: Counting objects: 6, done.
+# remote: Compressing objects: 100% (4/4), done.
+# remote: Total 6 (delta 0), reused 0 (delta 0)
+# Unpacking objects: 100% (6/6), 684 bytes | 2.00 KiB/s, done.
+# From ssh://192.168.246.45:/home/git/bare_collab
+#   030bad7..3f60be2  master     -> origin/master
+# Updating 030bad7..3f60be2
+# Fast-forward
+#  mycontent.txt | 1 +
+# 1 file changed, 1 insertion(+)
+
+# 9463@R4402-1989014 MINGW64 ~/testgit/bare_collab (master)
+# 9463@R4402-1989014 MINGW64 ~/testgit/bare_collab (master)
+# $ git log
+# commit 3f60be2a4a0ba7af9f42b5195c3ebea5a6980a1b (HEAD -> master, origin/master, origin/HEAD)
+# Merge: db9516e 030bad7
+# Author: puthaimuangway <thawinsak@192.168.246.45>
+# Date:   Tue Jul 28 18:55:07 2020 +0700
+
+#    Merge accept gitbash post
+
+# commit db9516ee0d0211b72515f04370021ef04da7a9fd
+# Author: puthaimuangway <thawinsak@192.168.246.45>
+# Date:   Tue Jul 28 18:29:07 2020 +0700
+
+#    cygwin64terminal change file
+
+# commit 030bad7e84f7d7801a1eb68951e99fbac7992f4d
+# Author: thawinsakclient <thawinsakk@pwa.co.th>
+# Date:   Tue Jul 28 18:13:16 2020 +0700
+
+#    gitbash first commit after changing the first lien
+
+# commit 1f8ec62c5582a816dd0a0a7f9a42e9b64048e75a
+# Author: thawinsak <thawinsak@git-cleint.itlab.com>
+# ssh git@192.168.246.45
+# [git@git-server ~]$
+# home/git/collab_source
+# [git@git-server collab_source]$
+# [git@git-server collab_source]$ git remote add origin /home/git/bare_collab/
+# [git@git-server collab_source]$ git pull  origin master
+# From ../bare_collab
+#  * branch            master     -> FETCH_HEAD
+# * [new branch]      master     -> origin/master
+# Updating 1f8ec62..3f60be2
+# Fast-forward
+# mycontent.txt | 3 ++-
+# 1 file changed, 2 insertions(+), 1 deletion(-)
+# [git@git-server collab_source]$
+
+
+
+
 
 
 
