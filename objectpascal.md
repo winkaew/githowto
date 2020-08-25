@@ -10,3 +10,12 @@
    More information about the various modes can be found in the user’s manual and the programmer’s manual. 
    Earlier versions of this document also contained the reference documentation of the system unit and objpas unit.
    This has been moved to the RTL reference guide. 
+The language Pascal was originally designed by Niklaus Wirth around 1970. It has evolved significantly since that day, with a lot of contributions by the various compiler constructors (Notably: Borland). The basic elements have been kept throughout the years: 
+Easy syntax, rather verbose, yet easy to read. Ideal for teaching. 
+Strongly typed. 
+Procedural. 
+Case insensitive. 
+Allows nested procedures. 
+Easy input/output routines built-in.
+The Turbo Pascal and Delphi Pascal compilers introduced various features in the Pascal language, most notably easier string handling and object orientedness. The Free Pascal compiler initially emulated most of Turbo Pascal and later on Delphi. It emulates these compilers in the appropriate mode of the compiler: certain features are available only if the compiler is switched to the appropriate mode. When required for a certain feature, the use of the -M command-line switch or {$MODE } directive will be indicated in the text. More information about the various modes can be found in the user’s manual and the programmer’s manual. 
+[prev] [prev-tail] [front] [up] 
