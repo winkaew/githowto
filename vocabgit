@@ -1,4 +1,25 @@
-    A commit in a git repository records a snapshot of all the (tracked) files in your directory. It's like a giant copy and paste, but even better!
-Git wants to keep commits as lightweight as possible though, so it doesn't just blindly copy the entire directory every time you commit. It can (when possible) compress a commit as a set of changes, or a "delta", from one version of the repository to the next.
-Git also maintains a history of which commits were made when. That's why most commits have ancestor commits above them -- we designate this with arrows in our visualization. Maintaining history is great for everyone working on the project!
-It's a lot to take in, but for now you can think of commits as snapshots of the project. Commits are very lightweight and switching between them is wicked fast!
+    * A commit in a git repository records a snapshot of all the (tracked) files in your directory.
+    * การ commit ใน git repo จะเก็บ ทุกสถานะ ของ files ใน directory ของคุณ
+    * It's like a giant copy and paste, but even better!
+    ๕ คล้ายกับ การ copy and paste แต่ จะดีกว่า
+* Git wants to keep commits as lightweight as possible though,
+* git ต้องการ commit อย่างเบา เท่าที่เป็นไปได้
+๕ so it doesn't just blindly copy the entire directory every time you commit.
+๕ 
+* It can (when possible) compress a commit as a set of changes,
+* มันสามารถ บีบอัด การcommit ชุดการเปลี่ยนแปลง
+* or a "delta", from one version of the repository to the next.
+* หรือ delta จาก version ของ repo ต่อไป
+* Git also maintains a history of which commits were made when.
+๕ จัดการเกี่ยวกับ ประวัติ การ commit เมื่อสร้าง
+๕ That's why most commits have ancestor commits above them
+๕ ดังนั้น commit ลูกหลาน จะอยู่ข้างบน
+๕-- we designate this with arrows in our visualization.
+๕ สามารถแสดงเป็น visuali ได้
+๕Maintaining history is great for everyone working on the project!
+๕ จัดการประวัติ บางสิ่ง ที่ current directory
+* It's a lot to take in, but for now you can think of commits as snapshots of the project.
+* สามารถ commit ได้ตลอด
+*Commits are very lightweight and switching between them is wicked fast!
+๕ 
+
