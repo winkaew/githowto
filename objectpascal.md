@@ -1,4 +1,4 @@
-   This document serves as the reference for the Pascal language as implemented by the Free Pascal compiler.
+        This document serves as the reference for the Pascal language as implemented by the Free Pascal compiler.
    It describes all Pascal constructs supported by Free Pascal, and lists all supported data types. 
    It does not, however, give a detailed explanation of the Pascal language: it is not a tutorial.
    The aim is to list which Pascal constructs are supported, 
