@@ -3,6 +3,7 @@
    * It describes all Pascal constructs supported by Free Pascal, and lists all supported data types. 
    * ทุกรายละเอียดของโครงสร้าง Pascal ใช้ได้กับ Free pascal และ ทุก data types
    * It does not, however, give a detailed explanation of the Pascal language: it is not a tutorial.
+   * อย่างไรก็ตาม  อธิบายรายละเอียด ภาษา Pascal  แต่ไม่ใช่ คู่มือ
    * The aim is to list which Pascal constructs are supported, 
    *  and to show where the Free Pascal implementation differs from the Turbo Pascal or Delphi implementations. 
    The Turbo Pascal and Delphi Pascal compilers introduced various features in the Pascal language.
