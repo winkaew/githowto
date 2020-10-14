@@ -105,7 +105,7 @@ $ git commit -m "gitbash first commit after changing the first lien "
 # 9463@R4402-1989014 ~/bare_collab
 # $ git log
 # commit db9516ee0d0211b72515f04370021ef04da7a9fd (HEAD -> master)
-# Author: puthaimuangway <thawinsak@192.168.246.45>
+# Author: puthaimuangway <thawinsak@git_server>
 # Date:   Tue Jul 28 18:29:07 2020 +0700
 
 #    cygwin64terminal change file
